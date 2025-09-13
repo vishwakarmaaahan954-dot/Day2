@@ -1,0 +1,15 @@
+[package]
+name = "Token-based-Game-Score-Tracker"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x7a794a9637f6edbca1c87ca725fb1cb6d823df3b196c9c4b1e2aa6e2f8b37623"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
